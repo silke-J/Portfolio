@@ -1,0 +1,20 @@
+.PortfolioHeader{
+h2{
+      display: inline-block;
+      font-size: 35px;
+      font-weight: bold;
+      position: relative;
+      margin-bottom: 30px;
+    }
+
+    h2::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -10px;
+      width: 100%;
+      height: 6px;
+      background-color: #FFB806; 
+      box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2); 
+    }
+    }

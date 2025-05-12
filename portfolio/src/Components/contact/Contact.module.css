@@ -1,0 +1,62 @@
+.Contact {
+  display: flex;
+  justify-content: space-around;
+  margin-block-start:100px;
+  margin-block-end: 10px;
+  height: 200px;
+
+}
+
+.mail{
+    h2{
+     font-size:30px;
+      font-weight: bold;
+      position: relative;
+      top: -5px;
+    }
+   .flex{
+    display: flex;
+    justify-content: center;
+    gap: 10px ;
+   }
+  h3 {
+    display: inline-block;
+    font-weight: bold;
+    position: relative;
+    margin-top: 30px;
+    left: 10px;
+  }
+
+  h3::after {
+    content: "";
+    position: absolute;
+    left: 0;
+     bottom:50px;
+    width: 100%;
+    height: 6px;
+    background-color: #ffb806;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  }
+  }
+
+  .telfonNr{
+h2{
+      display: inline-block;
+      font-size: 30px;
+      font-weight: bold;
+      position: relative;
+      margin-bottom: 30px;
+    }
+
+    h2::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -10px;
+      width: 100%;
+      height: 6px;
+      background-color: #FFB806; 
+      box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2); 
+    }
+    }
+

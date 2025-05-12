@@ -1,0 +1,62 @@
+.HeaderImg{
+    img{
+height: 500px;
+width: 600px;
+object-fit:cover;
+margin-inline-end: 160px;
+}
+}
+
+.HeaderText{
+text-align: left;
+margin-inline-start: 160px;
+
+
+h2{
+    margin-block-start: 70px;
+}
+h1, h2{
+    font-size: 48px;
+   font-weight: 800;
+}
+a{
+      font-family: 'Bungee Shade';
+    color:#FFB806;
+  
+    
+}
+h3{
+    font-size: 16px;
+    width: 500px;
+}
+p{
+    background-color: #FFB806;
+    width: 140px;
+    padding: 10px;
+    color: black;
+    font-weight:800 ;
+     margin-block:30px ;
+}
+button{
+    background-color: #FFB806;
+    border: none;
+    padding-inline: 30px;
+    padding-block: 10px;
+    border-radius: 30px;
+    font-weight: 700;
+    color: white;
+    margin-block-start:30px ;
+
+    a{
+        color: white;
+        font-family: 'inter';
+        text-decoration: none;
+    }
+}
+}
+
+.HeaderFlex{
+   display: flex;
+   justify-content: space-between;
+  
+}

@@ -1,0 +1,25 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.circle {
+  width: 300px;
+  height: 300px;
+  justify-items: center;
+  background-color: #FFB806;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  margin: 40px;
+
+  h2 {
+    padding-block-start: 30px;
+    margin: 0 0 10px 0;
+    font-size: 30px;
+  }
+ h3 {
+  width: 200px; 
+  word-wrap: break-word;
+}
+}

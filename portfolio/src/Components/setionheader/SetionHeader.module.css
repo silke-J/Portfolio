@@ -1,0 +1,10 @@
+.SectionHeader{
+    background-color: #FFB806;
+
+    h2{
+font-family: 'Bungee Shade';
+font-size: 48px;
+margin-block: 40px;
+padding-block: 20px;
+    }
+}

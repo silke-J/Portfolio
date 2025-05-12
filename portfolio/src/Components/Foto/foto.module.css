@@ -1,0 +1,14 @@
+.body{
+    margin-block-end: 70px;
+    margin-block-start: 20px;
+    
+    img{
+height:  350px;
+  margin-inline-end: 60px;
+    }
+}
+
+.cute{
+ width:350px ;
+ object-fit: cover;
+}

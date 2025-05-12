@@ -1,0 +1,20 @@
+.linkFigma {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding-block-end: 30px;
+  padding-block-start: 20px;
+  iframe {
+    width: 100%;
+    height: 500px;
+  }
+}
+
+  h1 {
+    font-size: 40px;
+    font-family: "bungee Shade";
+    padding-block-start:40px ;
+    
+        color: #ffb806;
+  }
+    p {
+    font-size: 20px;
+  }

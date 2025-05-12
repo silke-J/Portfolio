@@ -1,0 +1,17 @@
+.logo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+    padding-block: 30px;
+        margin-block-end: 70px;
+img {
+height: 200px;   
+
+width: auto;
+}
+.BB{
+ background-color: #fea75b;
+ padding-inline: 20px;
+}
+}
