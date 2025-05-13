@@ -3,7 +3,7 @@ const SetionHeader = ({ title, id }) => {
   return (
     <>
       <section className={styles.SectionHeader}>
-        <h2 id={id}>{title}</h2>
+        <h2>{title}</h2>
       </section>
     </>
   );

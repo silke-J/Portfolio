@@ -13,17 +13,24 @@ const Home = () => {
   return (
     <section>
       <Header />
-      <SetionHeader title="Portfolio" id="portfolio" />
+      <div id="portfolio">
+        <SetionHeader title="Portfolio"/>
+      </div>
       <PortfolioHeader title="Web projekt" />
       <WebCards />
-      <PortfolioHeader title="Foto projekt" />
-       <Foto/>
+      <PortfolioHeader title="Foto projekt"/>
+      <Foto />
       <PortfolioHeader title="Logo projekt" />
       <Logo />
-      <SetionHeader title="Mine skills" id="skill" />
+
+      <div id="skills">
+        <SetionHeader title="Mine skills" />
+      </div>
       <Skills />
 
-      <SetionHeader title="Kontakts" id="contact" />
+      <div id="contact">
+        <SetionHeader title="Kontakts" />
+      </div>
       <Contact />
     </section>
   );

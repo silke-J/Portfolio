@@ -10,10 +10,10 @@ import WordPressFigma from "./Pages/wordPressFigma";
 function App() {
   const routes = useRoutes([
     { path: "/", element: <Home /> },
-    { path: "#skill" },
+    { path: "#skills" },
     { path: "#portfolio" },
     { path: "#about" },
-    { path: "#contact " },
+    { path: "#contact"},
     { path: "/figma", element: <WordPressFigma /> },
     
   ]);
