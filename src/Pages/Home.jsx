@@ -12,25 +12,29 @@ import WebCards from "../Components/webcards/WebCards";
 const Home = () => {
   return (
     <section>
-      <Header />
-      <div id="portfolio">
-        <SetionHeader title="Portfolio"/>
-      </div>
+      
+      <section id="about">
+        <Header />
+      </section>
+
+      <section id="portfolio">
+        <SetionHeader title="Portfolio" />
+      </section>
       <PortfolioHeader title="Web projekt" />
       <WebCards />
-      <PortfolioHeader title="Foto projekt"/>
+      <PortfolioHeader title="Foto projekt" />
       <Foto />
       <PortfolioHeader title="Logo projekt" />
       <Logo />
 
-      <div id="skills">
+      <section id="skills">
         <SetionHeader title="Mine skills" />
-      </div>
+      </section>
       <Skills />
 
-      <div id="contact">
+      <section id="contact">
         <SetionHeader title="Kontakts" />
-      </div>
+      </section>
       <Contact />
     </section>
   );

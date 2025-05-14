@@ -2,8 +2,8 @@ import { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoClose } from "react-icons/io5";
 import logo from "../../public/logo.svg";
-import { Link } from "react-router-dom";
 import { useRef } from "react";
+import { Link } from "react-scroll";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -28,24 +28,24 @@ const Navigation = () => {
 
       <ul className={isOpen ? "nav-links open" : "nav-links"}>
         <li>
-          <a onClick={scrollToContact} href="#about">
+          <Link to="about" smooth={true} duration={500}>
             Om mig
-          </a>
+          </Link>
         </li>
         <li>
-          <p onClick={scrollToContact}>
-          Portfolio
-          </p>
+          <Link to="portfolio" smooth={true} duration={500}>
+            Portfolio
+          </Link>
         </li>
         <li>
-          <a onClick={scrollToContact} href="#skills">
+          <Link to="skills" smooth={true} duration={500}>
             Skills
-          </a>
+          </Link>
         </li>
         <li>
-          <a onClick={scrollToContact} href="#contact">
+          <Link to="contact" smooth={true} duration={500}>
             Kontakt
-          </a>
+          </Link>
         </li>
       </ul>
     </nav>
