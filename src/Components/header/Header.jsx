@@ -11,14 +11,13 @@ const Header = () => {
           </h1>
           <p>Webudvirker</p>
           <h3>
-            Jeg er mødestabil, pligtopfyldende og imødekommende. Jeg er altid
-            klar til at hjælpe, hvis der er behov for det, og jeg yder mit
-            bedste i alle opgaver. Jeg har en løsningsorienteret tilgang og går
-            målrettet efter at identificere problemer og finde den rette
-            løsning.
+            Jeg er en engageret og løsningsorienteret webudvikler, der skaber
+            funktionelle og brugervenlige løsninger. Jeg arbejder med frontend
+            (React/JS) og backend (Node.js/Express) og har erfaring med at bygge
+            komplette webløsninger, hvor frontend og backend fungerer
+            gnidningsfrit sammen.
           </h3>
           <button>
-
             <a href="Silkes_cv.pdf" download="Silkes-Cv">
               {" "}
               Download CV

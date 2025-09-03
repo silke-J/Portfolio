@@ -13,35 +13,37 @@ margin-inline-start: 160px;
 
 
 h2{
-    margin-block-start: 70px;
+   margin-top: 70px;
 }
 h1, h2{
     font-size: 48px;
    font-weight: 800;
+   line-height: 30px;
 }
 a{
       font-family: 'Bungee Shade';
     color:#FFB806;
-  
+
     
 }
 h3{
     font-size: 16px;
-    width: 500px;
+    width: 450px;
 }
 p{
     background-color: #FFB806;
-    width: 140px;
-    padding: 10px;
+    width: 160px;
+    padding: 15px;
     color: black;
     font-weight:800 ;
      margin-block:30px ;
+     
 }
 button{
     background-color: #FFB806;
     border: none;
-    padding-inline: 30px;
-    padding-block: 10px;
+    padding-inline: 40px;
+    padding-block: 15px;
     border-radius: 30px;
     font-weight: 700;
     color: white;
@@ -51,6 +53,7 @@ button{
         color: white;
         font-family: 'inter';
         text-decoration: none;
+        font-size: 18px;
     }
 }
 }

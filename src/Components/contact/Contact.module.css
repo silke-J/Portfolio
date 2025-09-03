@@ -1,6 +1,7 @@
 .Contact {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 200px;
   margin-block-start:100px;
   margin-block-end: 10px;
   height: 200px;
@@ -9,7 +10,7 @@
 
 .mail{
     h2{
-     font-size:30px;
+     font-size:25px;
       font-weight: bold;
       position: relative;
       top: -5px;
@@ -42,7 +43,7 @@
   .telfonNr{
 h2{
       display: inline-block;
-      font-size: 30px;
+      font-size:25px;
       font-weight: bold;
       position: relative;
       margin-bottom: 30px;

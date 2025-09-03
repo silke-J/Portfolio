@@ -3,6 +3,9 @@ import SC from "../../../public/SimilieCrohet2.png";
 import LS from "../../../public/lse-shoes.png";
 import BB from "../../../public/blomster_butiken.png";
 import bb from "../../../public/Bubblebee-s-blog.png";
+import KP from "../../../public/kaffepote.png";
+import ML from "../../../public/musikkeliste.png";
+import NQ from "../../../public/naturQuiz.png";
 import { Link } from "react-router-dom";
 
 const WebCards = () => {
@@ -78,6 +81,56 @@ const WebCards = () => {
               <Link to={"/figma"}>
                 <a>Se projekt</a>
               </Link>
+            </button>
+          </div>
+        </div>
+
+        <div className={styles.card}>
+          <img src={NQ} alt="" />
+          <div className={styles.cardContent}>
+            <h2>Natur Quiz</h2>
+            <h3>
+              I dette projekt har jeg arbejdet med Vanilla JavaScript. Det er et
+              hobbyprojekt, som jeg lavede for at prøve noget nyt og udfordre
+              mig selv. Projektet tog mig cirka en uge at færdiggøre.{" "}
+            </h3>
+            <button>
+              <a href=" https://silke-j.github.io/NaturQuzi/">Se projekt</a>
+            </button>
+          </div>
+        </div>
+
+        <div className={styles.card}>
+          <img src={ML} alt="" />
+          <div className={styles.cardContent}>
+            <h2>Musik list</h2>
+            <h3>
+              I dette projekt har jeg arbejdet med React. Det er et
+              hobbyprojekt, som jeg har lavet for at prøve noget nyt og udfordre
+              mig selv. Nogle af navnene på siden er derfor ikke rigtigt, da
+              projektet ikke er en stor opgave, men primært en mulighed for at
+              lære og eksperimentere med nye teknologier.
+            </h3>
+            <button>
+              <a href=" https://silke-j.github.io/MusikkeListen/">Se projekt</a>
+            </button>
+          </div>
+        </div>
+
+        <div className={styles.card}>
+          <img src={KP} alt="" />
+          <div className={styles.cardContent}>
+            <h2>KaffePote</h2>
+            <h3>
+              I dette projekt har jeg arbejdet med React. Projektet er lavet som
+              en øvelse, hvor jeg forestiller mig, at det er for en kunde eller
+              et firma, og jeg har udviklet det som mit eget firma. Projektet
+              skulle færdiggøres på en uge, så nogle elementer på siden er ikke
+              helt færdige eller optimerede, da projektet ikke er fuldt ud
+              udviklet.
+            </h3>
+            <button>
+              <a href="  https://silke-j.github.io/KaffePote/">Se projekt</a>
             </button>
           </div>
         </div>

@@ -14,6 +14,7 @@ function App() {
     { path: "#portfolio" },
     { path: "#about" },
     { path: "#contact"},
+    {path: "#top"},
     { path: "/figma", element: <WordPressFigma /> },
     
   ]);

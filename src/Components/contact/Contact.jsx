@@ -7,7 +7,7 @@ const Contact = () => {
       <section className={styles.Contact}>
         <div className={styles.mail}>
           <div className={styles.flex}>
-            <BsEnvelopeFill  size={25} color="#FFB806" />
+            <BsEnvelopeFill  size={20} color="#FFB806" />
             <h2> E-mail</h2>
           </div>
           <h3>silkejohansen13@gmail.com</h3>
@@ -16,7 +16,7 @@ const Contact = () => {
         <div className={styles.telfonNr}>
           <h2>
             {" "}
-            <BsFillTelephoneFill size={25} color="#FFB806" />
+            <BsFillTelephoneFill size={20} color="#FFB806" />
             Telfon nummer
           </h2>
           <h3>+45 71 75 79 82</h3>

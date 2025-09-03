@@ -14,12 +14,14 @@
   margin: 40px;
 
   h2 {
-    padding-block-start: 30px;
+    padding-block-start: 60px;
     margin: 0 0 10px 0;
     font-size: 30px;
   }
  h3 {
   width: 200px; 
   word-wrap: break-word;
+  font-size: 15px;
+  text-align: left;
 }
 }

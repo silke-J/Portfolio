@@ -59,7 +59,7 @@ const Skills = () => {
           </div>
 
           <div className={styles.circle}>
-            <h2>XD</h2>
+            <h2>XD & Figma</h2>
             <h3>
               Jeg kan også godt bruger XD til at visualisere idéer, lave layout
               og sikre et klart designgrundlag, før jeg går videre med udvikling
@@ -68,11 +68,11 @@ const Skills = () => {
           </div>
 
           <div className={styles.circle}>
-            <h2>Figma</h2>
+            <h2>Server</h2>
             <h3>
-              Jeg bruger Figma til at visualisere idéer, lave layout og sikre et
-              klart designgrundlag, før jeg går videre med udvikling og kodning
-              af projektet.
+              Jeg bygger API’er med Node.js/Express og forbinder dem til React
+              for at skabe brugervenlige løsninger. Jeg har erfaring med
+              datahåndtering og filtrering.
             </h3>
           </div>
 
