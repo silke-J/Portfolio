@@ -61,7 +61,7 @@ const Skills = () => {
           <div className={styles.circle}>
             <h2>XD & Figma</h2>
             <h3>
-              Jeg kan også godt bruger XD til at visualisere idéer, lave layout
+              Jeg kan også godt bruger XD & figma til at visualisere idéer, lave layout
               og sikre et klart designgrundlag, før jeg går videre med udvikling
               og kodning af projektet.
             </h3>
@@ -70,7 +70,7 @@ const Skills = () => {
           <div className={styles.circle}>
             <h2>Server</h2>
             <h3>
-              Jeg bygger API’er med Node.js/Express og forbinder dem til React
+              Jeg bygger API’er med + og forbinder dem til React
               for at skabe brugervenlige løsninger. Jeg har erfaring med
               datahåndtering og filtrering.
             </h3>
