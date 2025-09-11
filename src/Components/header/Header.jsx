@@ -18,7 +18,7 @@ const Header = () => {
             gnidningsfrit sammen.
           </h3>
           <button>
-            <a href="Silkes_cv.pdf" download="Silkes-Cv">
+            <a href="Silkes-Cv.pdf" download="Silkes-Cv">
               {" "}
               Download CV
             </a>
